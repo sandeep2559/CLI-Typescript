@@ -1,0 +1,24 @@
+{
+  "name": "typescript",
+  "version": "4.3.5",
+  "description": "This is my first typescript project",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "jsdoc": "jsdoc -c jsdoc.json",
+    "doc": "jsdoc -c jsdoc.json",
+    "start": "nodemon index.js",
+    "build": "tsc --build"
+  },
+  "author": "Sandeep Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "@types/readline-sync": "^1.4.3",
+    "nodemon": "^2.0.9",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "jsdoc": "^3.6.7"
+  }
+}
